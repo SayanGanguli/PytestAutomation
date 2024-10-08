@@ -1,0 +1,61 @@
+---
+Env: 2tst
+Region:
+    - Finland:
+           - url: https://f7970642c2tst-store.occa.ocs.oraclecloud.com/business-fi/
+           - username: sandeep_fi@yopmail.com
+           - password: Canon@321
+
+    - Europe:
+           - url: https://f7970642c2tst-store.occa.ocs.oraclecloud.com/business-eu/
+           - username: sandeep_eu@yopmail.com
+           - password: Canon@4321
+
+    - Norway:
+           - url: https://f7970642c2tst-store.occa.ocs.oraclecloud.com/business-no/home-page
+           - username: sandeep_no@yopmail.com
+           - password: Canon@321
+
+    - Germany:
+           - url: https://f7970642c2tst-store.occa.ocs.oraclecloud.com/business-at/home-page
+           - username: sandeep_at@yopmail.com
+           - password: CapMum@321
+
+    - France:
+           - url: https://f7970642c2tst-store.occa.ocs.oraclecloud.com/business-fr/t
+           - username: sandeep_fr@yopmail.com
+           - password: CapMum@321
+
+    - Denmark:
+           - url: https://f7970642c2tst-store.occa.ocs.oraclecloud.com/business-de/
+           - username: sandeep_de@yopmail.com
+           - password: Canon@321
+
+    - Poland:
+           - url: https://f7970642c2tst-store.occa.ocs.oraclecloud.com/business-pl/home-page
+           - username: sandeep_pl@yopmail.com
+           - password: Canon@321
+
+    - FinlandOrion:
+           - url: https://f7970642c2tst-store.occa.ocs.oraclecloud.com/business-eu
+           - username: sandeep_fi@yopmail.com
+           - password: Canon@321
+...
+---
+OCC:
+    - Admin:
+        - url: https://f7970642c2tst-admin.occa.ocs.oraclecloud.com/occ-admin/
+        - username: sandeep.rawat@canon-europe.com
+        - password: SandRawa@1234
+    - Agent:
+        - url: https://f7970642c2tst-admin.occa.ocs.oraclecloud.com/occs-agent/
+        - username: sandeep.rawat@canon-europe.com
+        - password: SandRawa@1234
+    - Account:
+        - name: sandeep_no@yopmail.com
+...
+---
+Email:
+    - url: https://yopmail.com/en/
+    - mail: sandeep_no@yopmail.com
+...
