@@ -1,0 +1,9 @@
+.idea/
+chromedriver.exe
+desktop.ini
+.pytest_cache/
+venv/
+__pycache__/
+Reports/
+Logs/
+.code-workspace
