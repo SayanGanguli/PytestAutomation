@@ -1,0 +1,27 @@
+{
+  "PP": {
+    "Server": "https://zephyr-pp.fi.informais.com/login?returnUrl=/",
+    "UserName": "srambhatlapp",
+    "Password": "Admin@12345",
+    "UserFullName": "Subash Rambhatla",
+    "LoginName": "Rambhatla, Subash",
+    "UserEmail": "raghavendr.c.pattaswamy@informa.com",
+    "User2Name": "rpattaswamypp",
+    "User2LoginName": "Pattaswamy, Raghavendra",
+    "User2FullName": "Raghavendra Pattaswamy",
+    "User2Password": "Admin@12345"
+  },
+  "Prod": {
+    "Server": "https://zephyr.fi.informais.com/",
+    "UserName": "rpattaswamyprod",
+    "Password": "Admin@123456",
+    "LoginName": "Pattaswamy, Raghavendra",
+    "UserFullName": "Raghavendra Pattaswamy",
+    "UserEmail": "raghavendr.c.pattaswamy@informa.com",
+    "User2Password": "Admin@12345"
+  },
+  "Environment": "PP",
+  "Browser": "Chrome",
+  "Tester": "Sayan Ganguli",
+  "TesterEmail": "sayan.ganguli@informa.com"
+}

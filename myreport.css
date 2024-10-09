@@ -1,0 +1,35 @@
+h1 {
+  background-color: lightyellow;
+  width:500px;
+  border: 5px solid cyan;
+  padding: 30px;
+  margin: 10px;
+  color: DodgerBlue;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h2{
+color: Violet;
+}
+
+<html>
+<head>
+<style>
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: auto
+}
+</style>
+</head>
+<body>
+
+<img src="../IIS-Zephyr/SGA.jpg" alt="SGA" style="width:150px">
+
+</body>
+</html>
