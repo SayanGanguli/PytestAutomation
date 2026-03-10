@@ -6,7 +6,8 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.edge.options import Options
 
-@pytest.fixture(params=["edge"],scope= "module", autouse= True)
+
+@pytest.fixture(params=["chrome", "edge"], scope="module", autouse=True)
 def setUp(request):
     if request.param == "chrome":
         options = webdriver.ChromeOptions()
@@ -16,15 +17,15 @@ def setUp(request):
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-gpu")
         service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service = service,options = options)
+        driver = webdriver.Chrome(service=service, options=options)
 
     elif request.param == "edge":
         options = Options()
         options.add_argument("--start-maximized")
-        #options.add_argument("headless")
-        #service = Service(EdgeChromiumDriverManager().install())
+        # options.add_argument("headless")
+        # service = Service(EdgeChromiumDriverManager().install())
         service = Service("D:/Workspace/Demo Pytest/PytestAutomation/msedgedriver.exe")
-        driver = webdriver.Edge(service=service,options=options)
+        driver = webdriver.Edge(service=service, options=options)
 
     else:
         raise ValueError(f"Unsupported browser: {request.param}")
